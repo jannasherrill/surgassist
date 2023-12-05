@@ -1,6 +1,6 @@
 # SurgAssist 💉
 <i>
-An essential tool in the operating room
+An essential tool in the operating room-<p>
 SurgAssist represents the latest advancement in surgical software, aiming to simplify the tasks of all those present in the operating room. 
 Our goal is to gather the preferences, supplies, and surgical setups of doctors during surgical procedures, consolidating them into a single platform. 
 This effort supports allied health professionals in enhancing the fluidity and efficiency of surgeries, ultimately ensuring patients experience a seamless and secure journey.</i>
