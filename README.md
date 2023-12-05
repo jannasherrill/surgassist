@@ -1,4 +1,4 @@
-# SurgAssist
+# SurgAssist 💉
 <i>
 An essential tool in the operating room
 SurgAssist represents the latest advancement in surgical software, aiming to simplify the tasks of all those present in the operating room. 
