@@ -55,16 +55,23 @@ body {
 }
 
 header {
-  background-image:
+  background: rgb(227,237,248);
+background: linear-gradient(270deg, rgba(227,237,248,1) 0%, rgba(148,187,233,1) 58%);
+/* background-image: url(SA_logo.png);
+
+background-repeat: no-repeat;
+background-position: right;
+background-size: 40%; */
+  /* background-image:
    linear-gradient(
       to left,
       rgba(227,237,248,1),
-      rgba(148,187,233,1)
-    ),
-    url("/SA_logodark.png");
+      rgba(148,187,233,1)65%), */
+
+    /* url("/SA_logodark.png");
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .nav__container {
