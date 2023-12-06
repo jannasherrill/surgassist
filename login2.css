@@ -143,7 +143,7 @@ input[type="submit"] {
   margin: 4rem 7rem 0rem 10rem;   
   /* padding-left: 5rem; */
   width: 60vw;
-  height: 80vh;
+  height: 100vh;
 }
 
 .input-form{
@@ -178,10 +178,10 @@ input[type="submit"] {
 .login-container{
   border-radius: 5rem;
   background-color: white;
-  margin: 7rem;
+  margin: 4rem;
   /* padding-left: 5rem; */
   width: 60vw;
-  height: 60vh;
+  height: 80vh;
 }
 
 .input-form{
