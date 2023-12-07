@@ -185,6 +185,7 @@ background-size: 40%; */
   color: var(--primary-color-light);
 }
 
+
 .header__form {
   width: 100%;
   max-width: 350px;
@@ -280,7 +281,7 @@ background-size: 40%; */
 }
 
 .about__content p {
-  margin-bottom: 1rem;
+  margin-bottom: -80px;
   color: var(--text-light);
 }
 
