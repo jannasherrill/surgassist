@@ -1,55 +1,58 @@
+// SHOW PASSWORD
 function myFunction() {
-    var x = document.getElementById("password");
-    if (x.type === "password") {
-      x.type = "text";
-    } else {
-      x.type = "password";
-    }
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
   }
-
-
-  function validate()
-{
-    var username=document.getElementById("username").value;
-    var password=document.getElementById("password").value;
-    if (username=="admin"&& password=="password")
-    {
-        alert("Login Success");
-        return false;
-
-    }
-    else
-    {
-        alert("Login Failed");
-    }
 }
 
+// HAMBURGER MENU
+function toggleMobileMenu(menu) {
+  menu.classList.toggle('open');
+}
 
-//   const name = document.getElementById('name')
-//   const password = document.getElementById('password')
-//   const form = document.getElementById('form')
-//   const errorElement = document.getElementById('error')
-  
-//   form.addEventListener('submit', (e) => {
-//     let messages = []
-//     if (username.value === '' || username.value == null) {
-//       messages.push('Name is required')
-//     }
-  
-//     if (password.value.length <= 6) {
-//       messages.push('Password must be longer than 6 characters')
-//     }
-  
-//     if (password.value.length >= 20) {
-//       messages.push('Password must be less than 20 characters')
-//     }
-  
-//     if (password.value === 'password') {
-//       messages.push('Password cannot be password')
-//     }
-  
-//     if (messages.length > 0) {
-//       e.preventDefault()
-//       errorElement.innerText = messages.join(', ')
-//     }
-//   })
+// // LOGIN
+
+// var email = documents.forms['form']['email;'];
+// var password = documents.forms['form']['password;'];
+
+// var email_error = document.getElementById('email_error');
+// var pass_error = document.getElementById('pass_error');
+
+// email.addEventListener('textInput', email_Verify);
+// password.addEventListener('textInput', pass_Verify);
+
+// function validated(){
+//   if (email.value.length < 9){
+//     email.style.border = "1px solid red";
+//     email_error.style.display = "block";
+//     email.focus ();
+//     return false;
+//   }
+// }
+
+// if (password.value.length < 9){
+//   email.style.border = "1px solid red";
+//   email_error.style.display = "block";
+//   email.focus ();
+//   return false;
+// }
+
+// function email_Verify(){
+//   if (email.value.length >= 8){
+//   email.style.border = "1px solid silver";
+//   email_error.style.display = "none";
+//   return true;
+//   }
+
+// }
+// function pass_Verify(){
+//   if (email.value.length >= 8){
+//   email.style.border = "1px solid silver";
+//   email_error.style.display = "none";
+//   return true;
+//   }
+
+// }

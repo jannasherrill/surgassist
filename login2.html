@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login2.css">
-    <script src="login2.js"></script> 
+
+
       <title>SurgAssist Login</title>
     
       <link rel = "icon" href ="SA_logodark.png" type = "image/x-icon">
@@ -23,26 +24,46 @@
     <button class="btn">Contact Us</button>
   </nav>
 <!-- END OF NAVIGATION BAR -->
-    <div id="error"></div>
-    <form method="POST" action='/' id="form">
+<!-- HAMBURGER MENU -->
+<div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    <ul class="mobile-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="login2.html">Login</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+  <!-- END OF HAMBURGER MENU -->
+  
+    <!-- <div id="error"></div>
+    <form method="POST" action='/' id="form"> -->
     <div class="login-container">
     <img src="/SA_logo copy.jpg" class="img-logo">
     
 <div class="input-form">
     <h1>Log in to your portal</h1>
-     <label for="username">
-</label>
-            <input type="username" class="form-control" id="username" placeholder="Username" required>
-       
-        <label for="password">
-        </label>
-        <input type="password" class="form-control" id="password" placeholder="Password" pattern="[a-z0-5]{8,}" required">
-<label for="checkbox"><input type="checkbox" onclick="myFunction()">Show Password</label>
-<input type="submit" value="Submit" onclick=validate()">
+<form class="login_form" action="surgassist/index.html" method="post" name="form" onsubmit="return validated()">
+
+     <label for="username"></label>
+            <input autocomplete="off" type="username" name="username" id="username" placeholder="Username" required">
+       <!-- <div id="email_error">Please enter an email address</div> -->
+        <label for="password"></label>
+        <input autocomplete="off" type="password" name="password" id="password" placeholder="Password" required">
+        <!-- <div id="pass_error">Please enter a password</div> -->
+
+
+        <label for="checkbox"><input type="checkbox" onclick="myFunction()">Show Password</label>
+<input type="submit" value="Submit">
      </div>
 
+   
 </form>
-
 </div>
+<script src="login2.js"></script> 
+
 </body>
 </html>
